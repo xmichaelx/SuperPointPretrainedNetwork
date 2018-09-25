@@ -107,3 +107,21 @@ You should see the following output from the NYU sequence snippet:
 * We do not intend to release the SuperPoint training or evaluation code, please do not email us to ask for it.
 * We do not intend to release the Synthetic Shapes dataset used to bootstrap the SuperPoint training, please do not email us to ask for it.
 * We use bi-linear interpolation rather than the bi-cubic interpolation described in the paper to sample the descriptor as it is faster and gave us similar results.
+
+# Fork notes
+
+## Requirements
+
+Install [Miniconda](https://conda.io/miniconda.html)
+
+## Installation
+
+```
+conda env create -f environment.yml
+conda activate SuperPointPretrainedNetwork
+jupyter notebook
+```
+
+## Testing
+
+Just launch SuperPointTesting.ipynb and follow the notebook.

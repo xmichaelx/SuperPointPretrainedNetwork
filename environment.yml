@@ -1,0 +1,15 @@
+name: SuperPointPretrainedNetwork
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - mkl
+  - cython
+  - numpy
+  - python=3.6
+  - pytorch
+  - matplotlib
+  - nb_conda
+  - pip:
+    - opencv-python
+   
